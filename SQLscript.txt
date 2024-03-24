@@ -1,0 +1,5 @@
+CREATE TABLE Employee (Name varchar(20), Emp_id varchar(20), Phone_no decimal(10), Age int, Department vrchar(20), Designation varchar(20), Salary decimal (10));
+
+ALTER TABLE Employee ADD PRIMARY KEY(Emp_id);
+
+INSERT  INTO Employee VALUES(Dharma, 565, 9652261648, 23, CyberSecurity, SecurityAnalyst, 80000);
